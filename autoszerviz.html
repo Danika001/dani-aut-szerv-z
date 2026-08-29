@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutóFix Szerviz</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#17202a;background:#f5f7f9}
+a{text-decoration:none;color:inherit}.container{width:min(1100px,92%);margin:auto}
+header{background:#111827;color:white;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:1.35rem;font-weight:800}.logo span{color:#f59e0b}
+nav{display:flex;gap:22px;font-weight:600}nav a:hover{color:#f59e0b}
+.hero{background:linear-gradient(135deg,#111827,#263548);color:white;padding:95px 0}
+.hero-content{max-width:720px}.eyebrow{color:#f59e0b;text-transform:uppercase;letter-spacing:2px;font-weight:800;margin-bottom:12px}
+h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;margin-bottom:20px}
+.hero p{font-size:1.15rem;color:#d7dee7;margin-bottom:30px}.buttons{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:13px 20px;border-radius:8px;font-weight:800}.btn-primary{background:#f59e0b;color:#111827}
+.btn-secondary{border:1px solid #718096}.btn-secondary:hover{background:white;color:#111827}
+section{padding:70px 0}.section-title{text-align:center;margin-bottom:38px}.section-title h2{font-size:2.2rem;margin-bottom:8px}
+.section-title p{color:#667085}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:white;padding:28px;border-radius:14px;box-shadow:0 5px 20px rgba(17,24,39,.07);border:1px solid #e7ebef}
+.icon{font-size:2rem;margin-bottom:12px}.card h3{margin-bottom:8px}.about{background:white}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.about-box{background:#111827;color:white;border-radius:18px;padding:38px}.about-box strong{color:#f59e0b}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-card{background:white;border-radius:14px;padding:30px;border:1px solid #e7ebef}
+.contact-item{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid #edf0f3}.contact-item:last-child{border-bottom:0}
+.contact-item b{display:block;margin-bottom:2px}.contact-item a{color:#b45309;font-weight:700}
+.map-placeholder{min-height:100%;background:#dfe5ea;border-radius:14px;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;color:#374151}
+footer{background:#111827;color:#cbd5e1;padding:28px 0;text-align:center}footer strong{color:white}
+@media(max-width:760px){nav{display:none}.cards,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:70px 0}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<div class="logo">AutóFix <span>Szerviz</span></div>
+<nav><a href="#szolgaltatasok">Szolgáltatások</a><a href="#rolunk">Rólunk</a><a href="#kapcsolat">Kapcsolat</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="container hero-content">
+<div class="eyebrow">Megbízható autószerviz</div>
+<h1>Az autód jó kezekben.</h1>
+<p>Szervizelés, karbantartás és javítás korrekt hozzáállással. Modern, letisztult bemutatkozó oldal egy autószerviz számára.</p>
+<div class="buttons"><a class="btn btn-primary" href="#kapcsolat">📞 Kapcsolat</a><a class="btn btn-secondary" href="#szolgaltatasok">Szolgáltatások</a></div>
+</div></section>
+
+<section id="szolgaltatasok"><div class="container">
+<div class="section-title"><h2>Szolgáltatásaink</h2><p>A legfontosabb autószerviz-szolgáltatások egy helyen.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">🔧</div><h3>Általános javítás</h3><p>Hibák feltárása és javítása személyautókon.</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>Karbantartás</h3><p>Időszakos karbantartás és az autó állapotának ellenőrzése.</p></div>
+<div class="card"><div class="icon">🚗</div><h3>Átvizsgálás</h3><p>Az autó műszaki állapotának átnézése és a szükséges javítások egyeztetése.</p></div>
+</div></div></section>
+
+<section id="rolunk" class="about"><div class="container about-grid">
+<div><div class="section-title" style="text-align:left;margin-bottom:18px"><h2>AutóFix Szerviz</h2></div>
+<p>Célunk, hogy ügyfeleink számára megbízható és korrekt autószervizt biztosítsunk. Ha javításra vagy karbantartásra van szükséged, keress minket bizalommal!</p></div>
+<div class="about-box"><p>📍 <strong>Telephely</strong></p><p>Veresegyház</p><br><p>📞 <strong>Telefon</strong></p><p>+36 30 123 4567</p></div>
+</div></section>
+
+<section id="kapcsolat"><div class="container">
+<div class="section-title"><h2>Kapcsolat</h2><p>Ez egy mintaoldal – a saját adataidat később beírhatod.</p></div>
+<div class="contact-grid">
+<div class="contact-card">
+<div class="contact-item"><div>📍</div><div><b>Cím</b><span>Veresegyház – minta cím</span></div></div>
+<div class="contact-item"><div>📞</div><div><b>Telefon</b><a href="tel:+36301234567">+36 30 123 4567</a></div></div>
+<div class="contact-item"><div>✉️</div><div><b>E-mail</b><a href="mailto:info@autofix-pelda.hu">info@autofix-pelda.hu</a></div></div>
+</div>
+<div class="map-placeholder"><div><div style="font-size:3rem">📍</div><h3>Veresegyház</h3><p style="margin-top:8px">Minta helyszín – ide később beírhatod a valódi címet.</p></div></div>
+</div></div></section>
+</main>
+
+<footer><div class="container"><p><strong>AutóFix Szerviz</strong> · Minta weboldal</p><p>+36 30 123 4567 · info@autofix-pelda.hu</p></div></footer>
+</body>
+</html>
